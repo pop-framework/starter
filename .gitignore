@@ -1,0 +1,47 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.code-workspace
+*.sublime-workspace
+
+# Dependencies
+/node_modules/
+/vendor
+/libpeerconnection.log
+/npm-debug.log
+/yarn-error.log
+/.sass-cache
+/connect.lock
+/coverage
+/testem.log
+/typings
+
+# Phpunit
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# Output Compilation
+/cache
+/dist
+
+# Config
+/config/database.php
