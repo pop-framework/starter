@@ -3,6 +3,16 @@
     "description": "A starter skeleton for POP-Framework",
     "license": "MIT",
     "stability": "stable",
+    "prefer-stable": true,
+    "minimum-stability": "stable", 
+
+    "scripts": {
+        "post-package-install": [
+            "git init"
+        ]
+    },
+
+
     "autoload": {
         "psr-4": {
             "App\\": "src/"
