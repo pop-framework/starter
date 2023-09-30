@@ -8,7 +8,7 @@
 
     "scripts": {
         "post-package-install": [
-            "git init"
+            "git init >> /dev/null"
         ]
     },
 
