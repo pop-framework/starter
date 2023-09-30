@@ -8,6 +8,7 @@
     "scripts": {
         "post-package-install": [
             "git init",
+            "rm /usr/local/bin/pop",
             "curl -LsS https://raw.githubusercontent.com/pop-framework/cli/master/pop -o /usr/local/bin/pop",
             "chmod +x /usr/local/bin/pop"
         ]
