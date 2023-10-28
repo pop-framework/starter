@@ -4,6 +4,7 @@ const INPUT = 'assets/scripts/main.js';
 const OUTPUT = 'public/bundle/';
 
 module.exports = {
+  mode: 'development',
   entry: path.resolve(__dirname, INPUT),
   output: {
     path: path.resolve(__dirname, OUTPUT),
