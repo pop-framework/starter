@@ -1,19 +1,18 @@
-const path = require('path');
+const mode     = 'development';
+const main     = 'assets/scripts/main.js';
+const output   = 'public';
+const filename = 'bundle.js';
 
-const INPUT = 'assets/scripts/main.js';
+const path     = require('path');
 
-// Output
-const OUTPUT_DIRECTORY = 'public/';
-const OUTPUT_FILE = 'bundle.js';
-
-
+// ---------------
 
 module.exports = {
-  mode: 'development',
-  entry: path.resolve(__dirname, INPUT),
+  mode: mode,
+  entry: path.resolve(__dirname, main),
   output: {
-    path: path.resolve(__dirname, OUTPUT_DIRECTORY),
-    filename: OUTPUT_FILE,
+    path: path.resolve(__dirname, output),
+    filename: filename,
   },
 
   module: {
@@ -23,7 +22,5 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
     ],
-  },
-
+  }
 };
-  
