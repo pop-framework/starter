@@ -1,5 +1,6 @@
 'use strict';
 
-import css from "./../styles/styles.css";
+// Import CSS
+import css from "./../styles/app.css";
 
 console.log("Hello There");
