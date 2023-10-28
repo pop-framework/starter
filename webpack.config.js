@@ -1,6 +1,6 @@
 const path = require('path');
 
-const INPUT = 'assets/scripts/app.js';
+const INPUT = 'assets/scripts/main.js';
 const OUTPUT = 'public/bundle/';
 
 module.exports = {
