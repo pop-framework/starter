@@ -1,8 +1,14 @@
 <?php const BASE = "main"; ?>
 
-<section class="section-title">
-    <div class="welcome-title">Welcome to<span>Pop&nbsp;Framework</span></div>
-    <div class="version">version 0.0.1</div>
-    <div class="project-root"><strong>Project directory</strong> : <code><?= $this->launcher->framework->get('project_root') ?></code></div>
-    <div class="media"></div> 
-</section>
+<div class="page-header">
+    <div class="page-title">Welcome to<br><span>Pop&nbsp;Framework</span></div>
+    <div class="page-subtitle">version 0.0.1</div>
+</div>
+
+<div class="page-content no-effect">
+    <div class="project-root">
+        <strong>Project directory</strong> : 
+        <code><?= $this->launcher->framework->get('project_root') ?></code>
+    </div>
+    <div class="pop-at-work"></div> 
+</div>
