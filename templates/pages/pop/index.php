@@ -6,9 +6,11 @@
 </div>
 
 <div class="page-content no-effect">
+<!--
     <div class="project-root">
         <strong>Project directory</strong> : 
         <code><?= $this->launcher->framework->get('project_root') ?></code>
     </div>
+-->
     <div class="pop-at-work"></div> 
 </div>
