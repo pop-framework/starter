@@ -13,4 +13,5 @@
     </div>
 -->
     <div class="pop-at-work"></div> 
+    <?= $this->launcher->framework->get('project_root') ?>
 </div>
