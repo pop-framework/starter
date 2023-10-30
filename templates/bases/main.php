@@ -18,7 +18,8 @@
                 <!-- Main Menu -->
                 <nav class="navbar">
                     <a href="<?= $this->url->generate("pop:start") ?>" class="active">Start Page</a>
-                    <a href="<?= $this->url->generate("book:index") ?>">Books</a>
+                    <a href="<?= $this->url->generate("pop:start") ?>">Project Monitor</a>
+                    <a href="<?= $this->url->generate("book:index") ?>">Books of demo</a>
                     <a href="<?= $this->url->generate("documentation") ?>" target="_blank">Documentation</a>
                 </nav>
 
