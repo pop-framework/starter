@@ -5,15 +5,12 @@ use Pop\Controller\AbstractController;
 
 class PopController extends AbstractController
 {
-    public function pop_simple()
+    public function index()
     {
-        return $this->render("pages/pop/simple");
-    }
-
-    public function pop_parameter($param)
-    {
-        return $this->render("pages/pop/parameter", [
-            'pop_param' => $param
+        $project_dir = "";
+        
+        return $this->render("pages/pop/index", [
+            'project_dir' => $project_dir,
         ]);
     }
 }

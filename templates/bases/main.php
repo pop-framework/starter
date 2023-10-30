@@ -6,7 +6,7 @@
     <base href="/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@400;700&display=swap">
     <title><?= $this->parameters->get('site_title') ?></title>
 </head>
 <body>
@@ -15,10 +15,11 @@
         <header class="site-header">
             <div class="content">
 
+                <!-- Main Menu -->
                 <nav class="navbar">
                     <a href="<?= $this->url->generate("pop:start") ?>" class="active">Start Page</a>
-                    <a href="<?= $this->url->generate("pop:start") ?>">Gallery</a>
-                    <a href="<?= $this->url->generate("pop:start") ?>">Documentation</a>
+                    <a href="<?= $this->url->generate("book:index") ?>">Books</a>
+                    <a href="<?= $this->url->generate("documentation") ?>" target="_blank">Documentation</a>
                 </nav>
 
             </div>
@@ -27,6 +28,7 @@
         <div class="site-content">
             <div class="content">
 
+                <!-- Page content -->
                 <?= pop_content ?>
 
             </div>
